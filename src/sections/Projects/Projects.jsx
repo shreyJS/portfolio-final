@@ -3,6 +3,7 @@ import styles from './ProjectsStyles.module.css';
 import store from '../../assets/store.jpg'
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
+import server01 from '../../assets/server01.jpg'
 import ProjectCard from '../../common/ProjectCard';
 import blog from '../../assets/blog.jpg';
 function Projects() {
@@ -21,6 +22,12 @@ function Projects() {
           link="https://github.com/shreyJS/digitalShop"
           h3="Digital Shop"
           p="Online marketplace"
+        />
+        <ProjectCard
+          src={server01}
+          link="https://github.com/shreyJS/WebServer"
+          h3="Web server"
+          p="CLI App"
         />
         <p>More coming soon...</p>
         {/* <ProjectCard

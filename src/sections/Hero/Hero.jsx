@@ -8,14 +8,14 @@ import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import profile_2 from '../../assets/profile_2.png'
-import resume_050924 from '../../assets/resume_050924.pdf'
+import Resume_080924 from '../../assets/Resume_080924.pdf'
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
   const themeIcon = theme === 'light' ? sun : moon;
-  const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
+  // const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
@@ -36,9 +36,7 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Shreyas
-          <br />
-          Deshpande
+          Shreyas &nbsp; Deshpande
         </h1>
         <h2>Full-stack Web Developer</h2>
         <span>
@@ -51,9 +49,9 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern web applications.
+        Passionate developer with a knack for creating efficient, user-friendly web applications
         </p>
-        <a href={resume_050924} download>
+        <a href={Resume_080924} download>
           <button className="hover">Resume</button>
         </a>
       </div>

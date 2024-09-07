@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    text-align: center;
+    text-align: start;
     height: 100dvh;
     min-height: 500px;
   
@@ -68,7 +68,7 @@
   }
   
   .description {
-    max-width: 24ch;
+    max-width: 40ch;
   }
   
   .info {
