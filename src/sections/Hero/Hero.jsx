@@ -8,7 +8,7 @@ import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import profile_2 from '../../assets/profile_2.png'
-import Resume_080924 from '../../assets/Resume_080924.pdf'
+import Resume_updated from '../../assets/Resume_updated.pdf'
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -51,7 +51,7 @@ function Hero() {
         <p className={styles.description}>
         Passionate developer with a knack for creating efficient, user-friendly web applications
         </p>
-        <a href={Resume_080924} download>
+        <a href={Resume_updated} download>
           <button className="hover">Resume</button>
         </a>
       </div>
